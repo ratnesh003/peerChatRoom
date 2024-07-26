@@ -16,9 +16,10 @@
 }
 
 .video-player{
+    border : 2px solid #b366f9;
     background-color: #000;
     height: 100%;
-    width: 60%;
+    width: 80%;
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
@@ -90,7 +91,7 @@
 @media screen and (max-width:600px) {
     .video-player{
         height: 100%;
-        width: auto;
+        width: 100%;
         object-fit: cover;
     }
 
